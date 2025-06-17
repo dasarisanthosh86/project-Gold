@@ -46,3 +46,8 @@ footer{
     background :linear-gradient(55deg, gold, rgb(147, 12, 231));
     color: white;
 }
+.user{
+    width: 700px;
+    height: 50px;
+    border-radius: 20px;
+}

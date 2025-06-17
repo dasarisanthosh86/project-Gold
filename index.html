@@ -59,47 +59,14 @@
         </div>
         <div class="col">
           <div class="container-fluid" style="padding: 50px;">
-            <div class="row san">
+            <div class="row san " >
               <h5>GET THE BEST RATE FOR YOUR GOLD LOAN</h5>
-              <div class="mb-3">
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your number">
-              </div>
-              <div class="mb-3"> 
-                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter your Pin">
-              </div>
-              <div class="col">
-                <input type="radio">By chilcking, you agree to our Terms and Policies
-              </div>
-              <button type="button" style="background-color:  rgb(226, 183, 52);" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                 GET A GLOD LOAN DETAILS
-              </button>
-              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="staticBackdropLabel">Gold Loan Details</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <h3>Aplication</h3>
-                      <p>name :-Santhosh</p>
-                      <p>Father/Husband Name :- Nageswrarao</p>
-                      <p>Aadhar Number:- XXXX XXXX 3645</p>
-                      <p>Address :- Anjaneya colony reddy palem Guntur</p>
-                      <p>Phone Number:-91+ 8688153566</p>
-                      <p>Date:- 1-1-2025</p>
-                      <p>Amount :-50,000</p>
-                      <p> Gold Item:- gold Coins</option></p>
-                      <p>grams :- 10.0G</p> 
-                      <p>Interst :- 600/-</p>
-                    </div>
-                    <div class="modal-footer">
-                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                       <button type="button" class="btn btn-primary">save data</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <form onsubmit="return sanThosh(event)">
+                <p><input type="text" id="username" placeholder="Username" class="user"></p>
+                <p><input type="password" id="password" placeholder="Password" class="user" ></p>
+                <button type="submit" class="user">GET A GLOD LOAN DETAILS</button>
+                <p id="error-message"></p>
+              </form>
               <div class="col">
                 <p> Serving Over</p>
                 <h6>2.5 Lakh</h6>
@@ -224,5 +191,6 @@
         </div>
       </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
